@@ -1,0 +1,65 @@
+/* CSS */
+
+#barra-encabezado {
+  background-color: black;
+  text-align: center;
+  font-family: "arial", Times, serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  height: 40px;
+  padding-top: 8px;
+}
+
+.navbar-brand img {
+  height: 100px;
+}
+
+body {
+  margin: 0;
+}
+
+.cover {
+  height: 400px;
+  background-image: url(img/OIP.jpg);
+  color: #ffc107;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+
+.cover-small {
+  height: 200px;
+  background-blend-mode: normal;
+}
+
+.card {
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+.card-title {
+  min-height: 3rem;
+}
+
+.card-text {
+  min-height: 10rem;
+}
+
+.d-item {
+  height: 500px;
+  margin-top: 45px;
+}
+
+.d-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.z-item {
+  text-align: end;
+}
