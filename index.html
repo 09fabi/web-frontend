@@ -14,8 +14,8 @@
   <body style="background-color: black">
     <header>
       <div id="barra-encabezado">
-        VIP | Reservas | Ubicación | Consultas | +18 | Barra libre |
-        Atención al cliente
+        VIP | Reservas | Ubicación | Consultas | +18 | Barra libre | Atención al
+        cliente
       </div>
     </header>
 
@@ -48,7 +48,12 @@
               >
             </li>
             <li class="nav-item">
-              <a style="color: white" class="nav-link" href="#contenedor-formulario">Reservar</a>
+              <a
+                style="color: white"
+                class="nav-link"
+                href="#contenedor-formulario"
+                >Reservar</a
+              >
             </li>
             <li class="nav-item">
               <a style="color: white" class="nav-link" href="#contacto"
@@ -71,7 +76,7 @@
 
     <div
       class="cover d-flex justify-content-center align-items-center flex-column"
-      style="border-radius: 50px;"
+      style="border-radius: 50px"
     >
       <h1>
         <big><b>MEREKETENGUE FESTIVAL</b></big>
@@ -227,40 +232,74 @@
       </div>
     </section>
 
-    <div class="container  border-top border-warning " style="max-width: 500px" id="contenedor-formulario">
+    <div
+      class="container border-top border-warning"
+      style="max-width: 500px"
+      id="contenedor-formulario"
+    >
       <div class="text-center mb-4" id="titulo-formulario">
-        <div><img src="img/logo.png" width="250px" alt="" class="img-fluid ps-5"></div>
+        <div>
+          <img src="img/logo.png" width="250px" alt="" class="img-fluid ps-5" />
+        </div>
         <h2 id="reserva" class="text-light">Reserva ahora ya!</h2>
-        <p class="fs-5 text-light">No te quedes fuera de esta experiencia única.</p>
+        <p class="fs-5 text-light">
+          No te quedes fuera de esta experiencia única.
+        </p>
       </div>
 
-     
+      <form
+        style="margin-bottom: 100px"
+        method="POST"
+        data-netlify="true"
+        action="#"
+      >
+        <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="nombre@ejemplo.com"
+          />
+        </div>
 
-      <form style="margin-bottom: 100px;"  method="POST" data-netlify="true" action="#">     
-            <div class= "mb-3">           
-              <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
-            </div>
- 
-          
-            <div class="mb-3">            
-              <input type="input" class="form-control" id="name" name="name" placeholder="Fabián Quezada">
-            </div>
-      
+        <div class="mb-3">
+          <input
+            type="input"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="Fabián Quezada"
+          />
+        </div>
 
-            <div class="mb-3">
-              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
-            </div>
+        <div class="mb-3">
+          <input
+            type="tel"
+            class="form-control"
+            name="phone"
+            id="phone"
+            placeholder="Teléfono"
+          />
+        </div>
 
-          <div class="mb-3">       
-            <textarea class="form-control" name="message" id="message" placeholder="Datos adicionales" rows="4"></textarea>
-          </div>
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            name="message"
+            id="message"
+            placeholder="Datos adicionales"
+            rows="4"
+          ></textarea>
+        </div>
 
-          <div class="mb-3">
-            <button type="submit" class=" btn btn-warning w-100 fs-5">Reservar</button>
-          </div>
+        <div class="mb-3">
+          <button type="submit" class="btn btn-warning w-100 fs-5">
+            Reservar
+          </button>
+        </div>
       </form>
-  
-  </div>
+    </div>
 
     <footer
       style="color: aliceblue"
@@ -281,7 +320,7 @@
             <h5 style="padding-bottom: 20px" class="text-uppercase">
               <u>Síguenos en nuestras redes sociales:</u>
             </h5>
-            <ul style="padding-top: 20px;"  class="list-unstyled">
+            <ul style="padding-top: 20px" class="list-unstyled">
               <li>
                 <a href="#!" class="me-3 text-warning">
                   <i class="fab fa-twitter"
