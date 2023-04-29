@@ -14,7 +14,7 @@
   <body style="background-color: black">
     <header>
       <div id="barra-encabezado">
-        Vip y general | Reservas | Ubicación | Consultas | +18 | Barra libre |
+        VIP | Reservas | Ubicación | Consultas | +18 | Barra libre |
         Atención al cliente
       </div>
     </header>
@@ -43,16 +43,16 @@
                 style="color: white"
                 class="nav-link"
                 aria-current="page"
-                href="#Inicio"
+                href="#carouselExampleIndicators"
                 >Inicio</a
               >
             </li>
             <li class="nav-item">
-              <a style="color: white" class="nav-link" href="#equipo">Equipo</a>
+              <a style="color: white" class="nav-link" href="#contenedor-formulario">Reservar</a>
             </li>
             <li class="nav-item">
-              <a style="color: white" class="nav-link" href="#seccion-contacto"
-                >Contactos</a
+              <a style="color: white" class="nav-link" href="#contacto"
+                >Contacto</a
               >
             </li>
           </ul>
@@ -60,10 +60,10 @@
             <input
               class="form-control me-2"
               type="email"
-              placeholder="Correo Electronico"
-              aria-label="Reserva Ahora"
+              placeholder="Escribe aquí..."
+              aria-label="Buscar"
             />
-            <button class="btn btn-dark" type="button">Reserva</button>
+            <button class="btn btn-dark" type="button">Buscar</button>
           </form>
         </div>
       </div>
@@ -226,42 +226,77 @@
       </div>
     </section>
 
+    <div class="container  border-top border-warning " style="max-width: 500px" id="contenedor-formulario">
+      <div class="text-center mb-4" id="titulo-formulario">
+        <div><img src="img/logo.png" width="250px" alt="" class="img-fluid ps-5"></div>
+        <h2 id="reserva" class="text-light">Reserva ahora ya!</h2>
+        <p class="fs-5 text-light">No te quedes fuera de esta experiencia única.</p>
+      </div>
+
+     
+
+      <form style="margin-bottom: 100px;"  method="POST" data-netlify="true" action="#">     
+            <div class= "mb-3">           
+              <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+            </div>
+ 
+          
+            <div class="mb-3">            
+              <input type="input" class="form-control" id="name" name="name" placeholder="Fabián Quezada">
+            </div>
+      
+
+            <div class="mb-3">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+            </div>
+
+          <div class="mb-3">       
+            <textarea class="form-control" name="message" id="message" placeholder="Datos adicionales" rows="4"></textarea>
+          </div>
+
+          <div class="mb-3">
+            <button type="submit" class=" btn btn-warning w-100 fs-5">Reservar</button>
+          </div>
+      </form>
+  
+  </div>
+
     <footer
       style="color: aliceblue"
       style="background-color: black"
       class="bg-dark text-center text-lg-start"
     >
-      <div class="container p-4">
+      <div id="contacto" class="container p-4">
         <div class="row">
           <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 style="padding-bottom: 20px" class="text-uppercase">
-              Contacto
+            <h5 style="padding-bottom: 30px" class="text-uppercase">
+              <u>Contacto</u>
             </h5>
-            <p>Dirección: Avenida Lo Prado #531, Santiago, Chile</p>
-            <p>Correo electrónico: MerekentegueContacto@gmail.com</p>
-            <p>Teléfono: (45) 435 5423</p>
+            <p><i>Dirección: Avenida Lo Prado #531, Santiago, Chile</i></p>
+            <p><i>Correo electrónico: MerekentegueContacto@gmail.com</i></p>
+            <p><i>Teléfono: (45) 435 5423</i></p>
           </div>
           <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
             <h5 style="padding-bottom: 20px" class="text-uppercase">
-              Síguenos en nuestras redes sociales:
+              <u>Síguenos en nuestras redes sociales:</u>
             </h5>
-            <ul class="list-unstyled">
+            <ul style="padding-top: 20px;"  class="list-unstyled">
               <li>
-                <a href="#!" class="me-3">
+                <a href="#!" class="me-3 text-warning">
                   <i class="fab fa-twitter"
                     >https://twitter.com/MEREKETENGUEPRODUCTIONS</i
                   >
                 </a>
               </li>
               <li>
-                <a href="#!" class="me-3">
+                <a href="#!" class="me-3 text-warning">
                   <i class="fab fa-facebook-f"
                     >https://www.facebook.com/MEREKETENGUEPRODUCTIONS/</i
                   >
                 </a>
               </li>
               <li>
-                <a href="#!" class="me-3">
+                <a href="#!" class="me-3 text-warning">
                   <i class="fab fa-instagram"
                     >https://www.instagram.com/MEREKETENGUEPRODUCTIONS/</i
                   >
