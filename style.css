@@ -1,4 +1,5 @@
-/* CSS */
+/* Gracias a nuestra id Barra-encabezado podemos estilizar dentro de nuestra hoja de estilos y añadir el fondo negro el texto centrado, nuestra fuente arial de 14px, 
+establecer que esta en negrita de color blanco y un altura de 40px. */
 
 #barra-encabezado {
   background-color: black;
@@ -11,13 +12,14 @@
   padding-top: 8px;
 }
 
+/* Gracias a nuestra clase navbar-brand img establecemos que el logo añadido en nuestro navbar tendrá una altura de 100px. */
+
 .navbar-brand img {
   height: 100px;
 }
 
-body {
-  margin: 0;
-}
+/* Usamos nuestra clase cover para definir la altura del mismo, la imagen de fondo, el color de texto y algo muy importante le agregamos el blend mode
+el cual nos ayuda a establecer que el color de nuestro fondo será mas oscuro de lo normal. */
 
 .cover {
   height: 400px;
@@ -29,10 +31,16 @@ body {
   background-blend-mode: darken;
 }
 
+/* Utilizamos nuestra clase cover-small establecida en las cards de la pagina para deshablitar el blend-mode de fondo establecido en el cover principal
+y tambien definimos la altura de estas de 200px. */
+
 .cover-small {
   height: 200px;
   background-blend-mode: normal;
 }
+
+/* Utilizamos nuestra clase card para establecer cosas como los es el borde de nuestras cartas el posicionamiento del texto central
+y el box shadow que nos permite generar un sombra alrededor de nuestras cards el cual está pero no se logra ver bien debido al fondo negro.  */
 
 .card {
   border: 0 !important;
@@ -41,6 +49,8 @@ body {
   text-align: center;
 }
 
+/* Usamos nuestas clases card-title y card-text para establecer la altura del titulo y los textos.  */
+
 .card-title {
   min-height: 3rem;
 }
@@ -48,6 +58,9 @@ body {
 .card-text {
   min-height: 10rem;
 }
+
+/* Utilizamos nuestras clases d-item y d-img generadas en la seccion de del carrusel para establecer la altura del bloque del carrusel y de la imagen del mismo, tambien establecemos que
+queremos un filtro 0.6 de brillo. */
 
 .d-item {
   height: 500px;
@@ -60,6 +73,4 @@ body {
   filter: brightness(0.6);
 }
 
-.z-item {
-  text-align: end;
-}
+/* Terminamos nuestra Hoja de estilos dando por finalizado la estetica de la pagina.  */

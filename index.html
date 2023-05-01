@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
+
+  <!-- En nuestra etiqueta head establecemos los links correspondientes a bootstrap,
+     a nuestra hoja de estilos css, y un charsert utf-8 para poder utilizar tildes. --> 
+
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
@@ -11,7 +15,11 @@
       crossorigin="anonymous"
     />
   </head>
-  <body style="background-color: black">
+
+<!-- El fondo del body lo establecemos con un inline, también generamos un encabezado
+   el cual lo diseñaremos con un selector de clase para asi continuar en nuestra hoja de estilos. --> 
+
+<body style="background-color: black">
     <header>
       <div id="barra-encabezado">
         VIP | Reservas | Ubicación | Consultas | +18 | Barra libre | Atención al
@@ -19,7 +27,10 @@
       </div>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-dark p-3">
+<!-- Generamos un navbar con sus links funcionales en la portada y un form, establecemos en las clases del nav y del boton que serán en modo oscuro de bootstrap
+  para que asi combinen con el fondo de nuestra pagina ya establecido en negro. --> 
+    
+<nav class="navbar navbar-expand-lg navbar-dark p-3">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" alt="logo" />
@@ -74,6 +85,11 @@
       </div>
     </nav>
 
+    <!-- Creamos un cover pequeñito estetico mas que nada para el titulo del evento, 
+    al cual le añadiremos la clase cover para editar en nuestra hoja de estilos (selector de clase) junto con otras clases para establecer nuestro texto
+    en el centro y que el cover sea en horizontal, creamos un style in-line para establecer el borde de nuestro cover redondeado y por ultimo gracias a clases de bootstrap establecemos
+    nuestro boton tendrá un outline de color amarillo y será de tamaño pequeño. --> 
+
     <div
       class="cover d-flex justify-content-center align-items-center flex-column"
       style="border-radius: 50px"
@@ -84,6 +100,11 @@
       <p><i>Ven a vivir un momento unico </i></p>
       <button class="btn btn-outline-warning btn-sm">Conoce más</button>
     </div>
+
+    <!-- Generamos nuestro carrusel gracias a nuestra Framework Bootstrap lo utilizaremos para dar al espectador algunos
+     de los artistas invitados, creamos diferentes clases que nos ayudan a establecer aspectos varios como lo son que el titulo de nuestro carrusel esté en mayusculas,
+     que el subtexto esté en negrita, generamos los botones del carrusel estableciendo como se moveran dentro de la pagina,
+     y también creamos la clase d-item para luego estilizar en nuestra hoja css. --> 
 
     <section>
       <div id="carouselExampleIndicators" class="carousel slide">
@@ -154,6 +175,10 @@
         </button>
       </div>
     </section>
+
+    <!-- Creamos nuestras cards gracias a Bootstrap en las cuales pondremos caracteristicas del evento, generamos una clase que definirá el fondo de estas en negro, y otras varias clases col que nos ayudan
+    a que nuestro sitio no pierda su forma en diferentes dispositivos, tambien decimos que nuestras cartas están establecidas con un alineamiento central 
+    y creamos la clase card title y card text que nos servirá para seguir estilizando dentro de nuestra hoja de estilos. --> 
 
     <section>
       <div class="container mt-5 mb-5">
@@ -232,6 +257,10 @@
       </div>
     </section>
 
+    <!-- Generamos un form casi al pie de la pagina para que asi el usario pueda poner sus datos y reservar su ticket, dentro de este form damos diferentes clases y etiquetas de diseño
+    una de ellas la clase de bootstrap border-warning para decir que queremos la linea del borde del form en amarillo, el text light en diferentes partes para decir que quermos nuestro texto en blanco,
+    tambien establecemos que nuestro boton de reserva será amarillo gracias a la etiqueta de bootstrap btn-warning. --> 
+
     <div
       class="container border-top border-warning"
       style="max-width: 500px"
@@ -239,7 +268,7 @@
     >
       <div class="text-center mb-4" id="titulo-formulario">
         <div>
-          <img src="img/logo.png" width="250px" alt="" class="img-fluid ps-5" />
+          <img src="img/logo.png" width="250px" alt="logo" class="img-fluid ps-5" />
         </div>
         <h2 id="reserva" class="text-light">Reserva ahora ya!</h2>
         <p class="fs-5 text-light">
@@ -301,6 +330,10 @@
       </form>
     </div>
 
+    <!-- Generamos un footer de la pagina o un pie de pagina en el cual pondremos el contacto de nuestro centro de eventos y sus redes sociales creamos diferentes clases que nos ayudaran
+    a estilizar nuestros bloques como definir un fondo negro, el texto en blanco, el texto centrado, y los padding-bottom para que no se vea todo muy junto tambien añadimos etiquetas <b> para
+    agregar una negrita de forma inline. --> 
+
     <footer
       style="color: aliceblue"
       style="background-color: black"
@@ -351,6 +384,8 @@
       </div>
     </footer>
 
+    <!-- Agregamos el link de java que conecta con bootstrap en caso de necesitarlo. --> 
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
@@ -358,3 +393,5 @@
     ></script>
   </body>
 </html>
+
+<!-- Cerramos nuestra hoja de html y damos por terminada nuestra portada de pagina. (Algunos de los Elementos de Bootstrap adicionales: bg-dark, border-warning, btm-outline-warning )--> 

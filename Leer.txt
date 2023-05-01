@@ -1,0 +1,9 @@
+Buenas tardes profesor aqui le hago entrega de la portada de mi pagina elegi la opcion: "Productora de eventos, enfocada en organizar conciertos de música urbana o similar a nivel nacional",
+solo utilicé la framework Bootstrap que fué la que pidió para el trabajo, elementos utilizados en clases y aplicados como estilos de CSS a nivel etiqueta, clase e id, agregue algunos otros simples
+para crear una interfaz a nivel visual más linda. También agregue comentarios tanto en mi html como en la hoja de estilos tal como pidió explicando lo que hice en cada sección.
+
+La portada de la pagina que cree trata de un centro de eventos: "Merekentengue" el cual esta organizando un festival a nivel nacional de gran nivel, que trae a artistas de gran renombre nacionales
+de indole urbana. La portada de la pagina ayuda a que tengan el contacto de la productora de eventos, los artistas invitados, algunas caracteristicas del festival, y un formulario para que reserven su
+ticket.
+
+Saludos Cordiales. Fabián Quezada.
