@@ -98,7 +98,34 @@
         <big><b>MEREKETENGUE FESTIVAL</b></big>
       </h1>
       <p><i>Ven a vivir un momento unico </i></p>
-      <button class="btn btn-outline-warning btn-sm">Conoce más</button>
+      
+      <!-- Modal, agregamos un boton de mas info con una buttom modal gracias a Bootstrap. -->
+    
+      <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        MAS INFO AQUÍ 
+      </button>
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-dark">
+              <h1 class="modal-title fs-5 bg-dark" id="staticBackdropLabel">MEREKETENGUE PRODUCTIONS</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-light bg-dark">
+              <i>Mereketengue production es una productora de eventos nueva pero con gran futuro debido a la exigencia de nuestros trabajadores y la proyeccion de la misma, a calidad y la atención al detalle son elementos clave en la industria de los eventos. Es importante no solo cumplir con las expectativas de los clientes, sino también superarlas para asegurar su satisfacción y fidelidad.
+
+                Además, la proyección de una empresa depende en gran medida de la calidad de su trabajo y su capacidad para ofrecer soluciones innovadoras y creativas a los desafíos que se presenten en el camino. Es importante tener una visión clara del futuro y trabajar arduamente para alcanzar los objetivos planteados.
+                
+                Por otro lado, la exigencia de los trabajadores también es fundamental para el éxito de una empresa. Un equipo de trabajo motivado, comprometido y con habilidades complementarias puede lograr grandes cosas y superar cualquier obstáculo. Por lo tanto, es importante fomentar un ambiente de trabajo positivo, donde se reconozcan y valoren las habilidades y contribuciones individuales.
+                
+                En resumen, el éxito de Mereketengue Production dependerá en gran medida de su capacidad para ofrecer servicios de alta calidad, proponer soluciones creativas y contar con un equipo de trabajo comprometido y exigente. Si se mantienen enfocados en estos elementos, estoy seguro de que tendrán un gran futuro por delante. </i>
+            </div>
+            <div class="modal-footer bg-dark">
+              <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Generamos nuestro carrusel gracias a nuestra Framework Bootstrap lo utilizaremos para dar al espectador algunos
@@ -257,6 +284,7 @@
       </div>
     </section>
 
+
     <!-- Generamos un form casi al pie de la pagina para que asi el usario pueda poner sus datos y reservar su ticket, dentro de este form damos diferentes clases y etiquetas de diseño
     una de ellas la clase de bootstrap border-warning para decir que queremos la linea del borde del form en amarillo, el text light en diferentes partes para decir que quermos nuestro texto en blanco,
     tambien establecemos que nuestro boton de reserva será amarillo gracias a la etiqueta de bootstrap btn-warning. --> 
@@ -394,4 +422,4 @@
   </body>
 </html>
 
-<!-- Cerramos nuestra hoja de html y damos por terminada nuestra portada de pagina. (Algunos de los Elementos de Bootstrap adicionales: bg-dark, border-warning, btm-outline-warning )--> 
+<!-- Cerramos nuestra hoja de html y damos por terminada nuestra portada de pagina. (Algunos de los Elementos de Bootstrap adicionales: buttom-modal bg-dark, border-warning, btm-outline-warning )--> 
