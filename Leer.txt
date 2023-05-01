@@ -6,4 +6,6 @@ La portada de la pagina que cree trata de un centro de eventos: "Merekentengue" 
 de indole urbana. La portada de la pagina ayuda a que tengan el contacto de la productora de eventos, los artistas invitados, algunas caracteristicas del festival, y un formulario para que reserven su
 ticket.
 
-Saludos Cordiales. Fabián Quezada.
+Saludos Cordiales. Fabián Quezada(21.255.629-7).
+
+ANALISTA PROGRAMADOR - Programación Front End (TI2031/AP-171-N3/D Temuco B5)
